@@ -27,7 +27,10 @@
     "@midwayjs/faas": "3.16.0",
     "@midwayjs/logger": "3.4.0",
     "@malagu/cloud": "2.56.0",
-    "@smithy/abort-controller": "3.0.0"
+    "@smithy/abort-controller": "3.0.0",
+    "@alicloud/tea-util": "1.4.8",
+    "@alicloud/openapi-client": "0.4.9",
+    "tencentcloud-sdk-nodejs": "4.0.852"
   },
   "devDependencies": {
     "webpack": "^5.91.0",
