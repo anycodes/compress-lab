@@ -1,0 +1,42 @@
+{
+  "name": "origin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "tsup index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ast-grep/napi": "^0.22.3",
+    "@iconify/json": "^2.2.209",
+    "@weapp-tailwindcss/cli": "^1.0.2",
+    "core-js": "^3.37.1",
+    "esbuild": "^0.21.2",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "sass": "^1.77.1",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vue": "^3.4.27",
+    "weapp-tailwindcss": "^3.2.1"
+  },
+  "tsup": {
+    "entry": [
+      "index.js"
+    ],
+    "splitting": false,
+    "clean": true,
+    "minify": true,
+    "outDir": "../compress",
+    "external": [
+      "@ast-grep/napi",
+      "sass",
+      "esbuild"
+    ]
+  }
+}
